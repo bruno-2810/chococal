@@ -1,0 +1,53 @@
+.pagina-inicio {
+    display: flex;
+    flex-direction: column;
+    height: 95vh;
+    background-image: url('../../../public/images/background-home.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    .conteudo {
+        width: 700px;
+        margin-top: 170px;
+        margin-left: 140px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+
+        .titulo{
+            display: flex;
+            flex-direction: row;
+            animation: animacao 2s;
+        }
+
+        p{
+            animation: animacao 2s;
+        }
+
+        .ponto{
+            font-family: fonte-titulo;
+            color: white;
+            font-size: 38px;
+        }
+
+        h1 {
+            font-size: 38px;
+            margin-bottom: -12px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.4;
+        }
+    }
+
+    span {
+        font-family: fonte-titulo;
+        color: #5E3524;
+        font-weight: 500;
+        font-size: 40px;
+        margin-right: 13px;
+    }
+}

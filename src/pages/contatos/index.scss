@@ -1,0 +1,61 @@
+.pagina-contatos {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url('https://cdn.discordapp.com/attachments/1209127677060186172/1312528956901294090/43_Sem_Titulo_20241130182030.png?ex=674cd358&is=674b81d8&hm=a89de554ac2bf35ed7811b6f452636221341293e12949e792fb138d904a19cca&');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    .conteudo{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        margin: 0;
+        padding: 0px 140px;
+
+        .redes{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            margin-top: 50px;
+            animation: animacao 2s;
+
+            h1{
+                font-family: fonte-titulo;
+                font-weight: 500;
+                color: #5E3524;
+                margin-bottom: 0px;
+                font-size: 48px;
+            }
+
+            img{
+                width: auto;
+                height: 45px;
+                align-self: center;
+            }
+
+            .bt{
+                font-size: 20px;
+                display: flex;
+                flex-direction: row;
+                color: #693b25;
+                background-color: #dcb6a0;
+                padding: 0px 12px;
+                gap: 10px;
+                border-radius: 12px;
+            }
+            .bt:hover{
+                scale: 110%;
+                transition: 1s;
+                cursor: pointer;
+            }
+        }
+        .img{
+            img{
+                height: 550px;
+            }
+        }
+    }
+}

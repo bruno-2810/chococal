@@ -1,0 +1,32 @@
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    background-color: #2a1409;
+    padding: 10px 140px;
+    justify-content: space-between;
+    
+
+    img{
+        width: 9vh;
+        animation: animacao 2s;
+    }
+
+    .nav{
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        align-self: center;
+
+        .link{
+            animation: animacao 2s;
+            color: white;
+            text-decoration: none;
+            &:hover{
+                color: #c9a892;
+                scale: 110%;
+                transition: 0.5s;
+                cursor: pointer;
+            }
+        }
+    }
+}

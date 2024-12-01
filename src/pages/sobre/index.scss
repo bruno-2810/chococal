@@ -1,0 +1,29 @@
+.pagina-sobre{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-image: url('https://cdn.discordapp.com/attachments/1209127677060186172/1312586417507139695/43_Sem_Titulo_20241130220935.png?ex=674d08dc&is=674bb75c&hm=dddcc63460666051a5d6ea4591c5b1aa7e10a9c4ac0cf37c25a3b33168168f5a&');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+    .titulo{
+        font-family: fonte-titulo;
+        color: #5E3524;
+        font-size: 50px;
+        margin-bottom: 0px;
+        font-weight: 400;
+        animation: animacao 2s;
+    }
+
+    .texto{
+        width: 60%;
+        line-height: 1.4;
+        align-self: center;
+        font-size: 22px;
+        font-weight: 400;
+        color: white;
+        animation: animacao 2.5s;
+    }
+}
