@@ -4,7 +4,9 @@
     background-color: #2a1409;
     padding: 10px 140px;
     justify-content: space-between;
-    
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
 
     img{
         width: 9vh;

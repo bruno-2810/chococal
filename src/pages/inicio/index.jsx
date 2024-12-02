@@ -1,11 +1,14 @@
 import './index.scss'
 import Cabecalho from '../../components/cabecalho'
+import Sobre from '../sobre'
+import Chocolates from '../chocolates'
+import Contatos from '../contatos'
 
 export default function Inicio() {
 
 
     return (
-        <div className='sim'>
+        <div className='sim' id='inicio'>
             <Cabecalho />
             <div className='pagina-inicio'>
                 <div className='conteudo'>
@@ -16,6 +19,9 @@ export default function Inicio() {
                     <p>Somos apaixonados por chocolate e dedicados a transformar os melhores ingredientes em experiências únicas. Nossos produtos são criados com cuidado, tradição e inovação para adoçar o seu dia e celebrar os momentos mais especiais. Descubra o sabor inesistivel e a qualidade que fazem do nosso chocolate a escolha perfeita para quem busca o melhor.</p>
                 </div>
             </div>
+            <Sobre/>
+            <Chocolates/>
+            <Contatos/>
         </div>
     )
 }

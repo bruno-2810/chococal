@@ -16,8 +16,8 @@ export default function Chocolates() {
     const slides = [ChocolateCard, BrancoCard, AmargoCard]
 
     return (
-        <div className='pagina-chocolates'>
-            <Cabecalho />
+        <div className='pagina-chocolates' id='chocolates'>
+            
             <Swiper
                 modules={[Navigation, Pagination, Autoplay]}
                 navigation

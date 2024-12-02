@@ -6,8 +6,8 @@ export default function Contatos() {
 
 
     return (
-        <div className='pagina-contatos'>
-            <Cabecalho />
+        <div className='pagina-contatos' id='contatos'>
+            
             <div className='conteudo'>
                 <div className='redes'>
                     <h1>Entre em contato :</h1>
