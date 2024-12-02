@@ -1,4 +1,3 @@
-import Cabecalho from '../../components/cabecalho'
 import './index.scss'
 
 

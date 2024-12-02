@@ -1,4 +1,3 @@
-import Cabecalho from '../../components/cabecalho'
 import './index.scss'
 import ChocolateCard from '../../components/cards/leite.jsx'
 import BrancoCard from '../../components/cards/branco.jsx'
