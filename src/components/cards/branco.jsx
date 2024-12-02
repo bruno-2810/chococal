@@ -7,7 +7,7 @@ const BrancoCard = () => {
       <div className="card">
         <div className="card-img">
           <img
-            src="https://cdn.discordapp.com/attachments/1209127677060186172/1312602033747918938/43_Sem_Titulo_20241130230459.png?ex=674d1767&is=674bc5e7&hm=b23527eee21b6fdd3dce4805f06c2518d67fe8ed75075139c7fdc98ace8e8dc8&" 
+            src="/images/branco.png" 
             alt="Chocolate Branco"
           />
         </div>

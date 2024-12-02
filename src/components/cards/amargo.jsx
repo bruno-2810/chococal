@@ -7,8 +7,8 @@ const AmargoCard = () => {
       <div className="card">
         <div className="card-img">
           <img
-            src="https://cdn.discordapp.com/attachments/1209127677060186172/1312602032833695774/43_Sem_Titulo_20241130230946.png?ex=674d1767&is=674bc5e7&hm=a4a8499b70b466fc2d9f8a8f611cf34fd93a08527a9ba656978e542745317559&" 
-            alt="Chocolate Branco"
+            src="/images/amargo.png" 
+            alt="Chocolate amargo"
           />
         </div>
         <div className="card-content">
